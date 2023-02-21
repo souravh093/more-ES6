@@ -22,6 +22,19 @@ const result = makeDouble;
 console.log(result);
 
 
+// const students = ['Rahim', 'Karim', 'Dev', 'Munchi', 'Mokbul'].map( value => value + " khan" );
+const students = ['Rahim', 'Karim', 'Dev', 'Munchi', 'Mokbul', 'Rana'].map( value => {
+    if (value.length % 2 === 0) {
+        return value
+    }else {
+        return;
+    }
+} );
+console.log(students);
+
+
+
+
 // Purpose: 
 // 1. Get an array
 // 2. for every elements of the array do something 
