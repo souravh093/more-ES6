@@ -10,5 +10,5 @@ const students = {
 }
 
 // const marks = students.mark;
-const math = students.mark.math;
+const math = students.mark.physics;
 console.log(math);

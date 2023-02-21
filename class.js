@@ -12,7 +12,11 @@ class Instructor {
     startSupportSession(time) {
         console.log(`Start the support session ${time}`);
     }
+    provideFeedBack() {
+        console.log(`${this.name} thank you for your feedback!`);
+    }
 }
 
 const sourav = new Instructor('Sourav', 'Barishal');
-console.log(sourav);
+const rafi = new Instructor('rafi', 'Dhaka');
+console.log(sourav, rafi);

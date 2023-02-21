@@ -19,3 +19,5 @@ const products = [
     },
 
 ]
+const getProducts = products.forEach(p => p.price);
+console.log(getProducts)

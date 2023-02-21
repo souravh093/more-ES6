@@ -2,8 +2,8 @@ const numbers = [12, 5, 91, 39, 13, 48, 1];
 const bigNumbers = numbers.filter(number => number > 20);
 const tiny = numbers.filter(number => number < 10);
 const event = numbers.filter(number => number % 2 === 0);
-console.log(tiny);
-console.log(event);
+// console.log(tiny);
+// console.log(event);
 console.log(bigNumbers);
 
 const products = [
